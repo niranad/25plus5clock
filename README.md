@@ -20,4 +20,4 @@ This project with all tests passing is live with Github pages at [25plus5clock](
 
 ## Origin
 
-The project is one of the five (5) Freecodecamp's Front End Development Libraries 300 course work and its objectives are stated at [Build a 25 + 5 Clock](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock).
+The project is one of the five (5) Freecodecamp's Front End Development Libraries 300 hours course work and its objectives are stated at [Build a 25 + 5 Clock](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock).
