@@ -1,0 +1,186 @@
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49.99999%, -49.99999%);
+  height: fit-content;
+  width: 100%;
+  overflow: auto;
+}
+
+.head-text {
+  text-align: center;
+  font-size: 1.334em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.552em 0;
+}
+
+.label {
+  font-size: 0.969em;
+  font-weight: 200;
+}
+
+.length-control,
+.control-butt-div {
+  width: fit-content;
+}
+
+.length-control {
+  margin: 0 auto 0.335em;
+}
+
+.length-control-icon {
+  font-size: 1.188em;
+}
+
+.length-display {
+  font-size: 1em;
+  margin: 0 1.377em;
+}
+
+.control-butt-div {
+  margin: 0.557em auto;
+}
+
+.timer {
+  margin: 2.5em auto 0.795em;
+  border: 0.25em solid rgba(0, 0, 0, 0.445);
+  border-radius: 1.875em;
+  text-align: center;
+  width: 8.577em;
+  height: fit-content;
+  padding: 0.789em 0.589em 0.445em;
+}
+
+.timer-label {
+  margin-bottom: 1.579em;
+}
+
+.time-display {
+  font-size: 1.776em;
+}
+
+.control-butt {
+  border: none;
+  outline: none;
+  background-color: #116383;
+  cursor: pointer;
+}
+
+.fas {
+  background-color: #116383;
+}
+
+.clock-control-div {
+  margin: 0 auto 0.873em;
+  text-align: center;
+  width: fit-content;
+}
+
+.clock-control-butt {
+  margin: 0.225em 0.475em 0.552em;
+}
+
+.danger-time {
+  color: rgba(201, 11, 11, 0.986);
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(0.5);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .head-text {
+    font-size: 1.895em;
+  }
+
+  .label {
+    font-size: 1.447em;
+    letter-spacing: -0.03rem;
+  }
+
+  .length-display {
+    font-size: 1.378em;
+  }
+
+  .timer {
+    width: 11.25em;
+    margin: 2.5em auto 0.795em;
+  }
+
+  .time-display {
+    font-size: 2.333em;
+  }
+
+  .fas {
+    font-size: 1.6em;
+  }
+
+  .length-control-icon {
+    font-size: 1.335em;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .head-text {
+    font-size: 2.399em;
+  }
+
+  .label {
+    font-size: 1.797em;
+  }
+
+  .length-control {
+    display: inline-block;
+  }
+
+  .length-display {
+    font-size: 1.897em;
+    margin: 0 1.479em;
+  }
+
+  .length-control-div {
+    margin-top: 1.965em;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .length-control-icon {
+    font-size: 1.597em;
+  }
+
+  .break-control {
+    margin-right: 2.187em;
+  }
+
+  .session-control {
+    margin-left: 2.187em;
+  }
+
+  .fas {
+    font-size: 1.987em;
+  }
+
+  .timer {
+    width: 15.25em;
+  }
+
+  .time-display {
+    font-size: 3.098em;
+  }
+}
