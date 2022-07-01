@@ -16,7 +16,7 @@ A count-down timer built with [React.js](https://reactjs.org).
 
 ## Link
 
-This project with all tests passing is live with firebase hosting at [25plus5clock](https://https://clock-fea28.web.app). Specified tests can be run against the project on this [codepen](https://codepen.io/niranad/full/gOvVooB).
+This project with all tests passing is live with firebase hosting at [25plus5clock](https://clock-fea28.web.app). Specified tests can be run against the project on this [codepen](https://codepen.io/niranad/full/gOvVooB).
 
 ## Origin
 
