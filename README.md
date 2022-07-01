@@ -16,7 +16,7 @@ A count-down timer built with [React.js](https://reactjs.org).
 
 ## Link
 
-This project with all tests passing is live with Github pages at [25plus5clock](https://niranad.github.io/25plus5clock). **If you are using Google Chrome, you may see a warning red screen with _Deceptive site ahead_ message indicating the site is _dangerous_. Please note that this is not true as Google Chrome cannot accurately discern a website with no backend logic such as a Github page from phishing attacks. Just ignore and click the _Details_ button, then click _visit this unsafe site_ to see the project.** Specified tests can be run against the project on this [codepen](https://codepen.io/niranad/full/gOvVooB).
+This project with all tests passing is live with firebase hosting at [25plus5clock](https://https://clock-fea28.web.app/). Specified tests can be run against the project on this [codepen](https://codepen.io/niranad/full/gOvVooB).
 
 ## Origin
 
